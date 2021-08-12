@@ -32,7 +32,40 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.link {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.list-group a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.linkContainer {
+  text-align: left;
+
+  padding: 10px;
+  vertical-align: center;
+  border-top: 1px solid rgb(194, 194, 194);
+  border-left: 1px solid rgb(194, 194, 194);
+  border-right: 1px solid rgb(194, 194, 194);
+
+  border-radius: 2px;
+}
+.list-group {
+  margin: 30px;
+}
+
+.list-group:last-child {
+  border-bottom: 1px solid rgb(194, 194, 194);
 }
